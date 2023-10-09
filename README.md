@@ -272,7 +272,7 @@ url = "mongodb://localhost:27017"
 client = MongoClient(url)
 
 db = client["test"]
-doc = db["customerPreference"]
+doc = db["cps"]
 
 doc.delete_many({})
 
